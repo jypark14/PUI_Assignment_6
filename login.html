@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>Muddy Paws</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles/layout.css" type="text/css">
+</head>
+
+<body style="background-color:bisque;">
+  <!-- Header Row with logo and navbar -->
+  <div class="wrapper row1">
+    <header id="header">
+      <div id="hgroup">
+        <a href="index.html"><img src="./images/paws.jpg" width="50" height="50"></a>
+      </div>
+      <div id="abc">
+        <h1 style="display: inline; padding-left: 110px;">Muddy Paws</h1>
+        <!-- Nav bar  -->
+        <nav>
+          <ul>
+            <li><a href="login.html">Log In</a></li>
+            <li><a href="cart.html" class="notification">
+              <!-- Badge  -->
+                <img src="./images/cart2.jpg" width="30" height="25">
+                <span id="badge"></span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </div>
+
+  <!-- Signup Form  -->
+  <h1 style="display: flex; justify-content: center; padding-top: 80px;">Create an account</h1><br><br>
+  <br>
+  <div style="display: flex; justify-content: center;">
+    <!-- Creates a forum that takes in name, password, email address of user -->
+    <form class="register">
+      <input type="text" placeholder="name" /><br>
+      <input type="password" placeholder="password" /><br>
+      <input type="text" placeholder="email address" /><br><br>
+      <button>create</button>
+    </form>
+  </div>
+
+  <br><br><br><br><br><br>
+  <!-- Signin Form -->
+  <h1 style="display: flex; justify-content: center; padding-top: 30px;">Sign in</h1><br><br>
+  <br>
+  <div style="display: flex; justify-content: center;">
+    <!-- Creates a form that takes in username and password of the user signing in -->
+    <form class="login">
+      <input type="text" placeholder="username" /><br>
+      <input type="password" placeholder="password" /><br><br>
+      <button>login</button><br><br>
+    </form>
+  </div>
+
+</body>
+
+</html>

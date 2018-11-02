@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <title>Muddy Paws</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/layout.css" type="text/css">
+</head>
+
+<body>
+    <!-- Header Row with logo and navbar -->
+    <div class="wrapper row1">
+        <header id="header">
+            <div id="hgroup">
+                <a href="index.html"><img src="./images/paws.jpg" width="50" height="50"></a>
+            </div>
+            <div id="abc">
+                <h1 style="display: inline; padding-left: 110px;">Muddy Paws</h1>
+                <!-- Nav Bar -->
+                <nav>
+                    <ul>
+                        <li><a href="login.html">Log In</a></li>
+                        <li><a href="cart.html" class="notification">
+                                <!-- Badge -->
+                                <img src="./images/cart2.jpg" width="30" height="25">
+                                <span id="badge"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <!-- Main content -->
+    <div class="wrapper row2" style="height:800px;">
+        <div id="container">
+            <!-- The search bar image - will be interactive in the next phase -->
+            <div id="search_bar" style="display: flex; justify-content: center; padding-top: 50px; padding-bottom: 20px;">
+                <img src="./images/search.jpg" width="400" height="50">
+            </div>
+
+            <!-- Creates sets of checkboxed filters under the search bar -->
+            <div style="display: flex; justify-content: center; padding-bottom: 100px">
+                <form action="/action_page.php">
+                    filters: &emsp;&emsp;&emsp;&emsp;&emsp;
+                    pet type<input type="checkbox" name="pet type">&emsp;&emsp;&emsp;&emsp;
+                    color <input type="checkbox" name="color">&emsp;&emsp;&emsp;&emsp;
+                    size <input type="checkbox" name="size">&emsp;&emsp;&emsp;&emsp;
+                    price <input type="checkbox" name="price">&emsp;&emsp;&emsp;&emsp;
+                </form>
+            </div>
+
+            <!-- Divides up the section to three sections (class1,class2,class3) -->
+            <div style="display: flex; justify-content: center; padding-left: 100px; padding-right: 100px;">
+                <!-- Contains images of the different items displayed on the browsing page -->
+                <div class="class1">
+                    <div style="padding-bottom:20px"><img src="./images/dogcollar.jpg" width="200" height="200"></div>
+                    <div style="padding-bottom:20px"><img src="./images/necklace.jpg" width="200" height="200"></div>
+                    <div style="padding-bottom:20px"><img src="./images/harness.jpg" width="200" height="200"></div>
+                </div>
+                <!-- Contains detail for items -->
+                <div class="class2">
+                    <b style="font-size: 20px">Dog Collar</b><br><br><br>
+                    <b style="font-size: 15px">$ 14</b><br>
+                    <div style="margin-top:30px; margin-bottom: 80px;"><a href="products/collar_detail.html"><img src="./images/addtocart.jpg"
+                                width="180" height="40"></a></div>
+                    <b style="font-size: 20px">Double Grip Leash</b><br><br><br>
+                    <b style="font-size: 15px">$ 35 </b><br>
+                    <div style="margin-top:30px; margin-bottom: 80px;"><a href="products/necklace_detail.html"><img src="./images/addtocart.jpg"
+                                width="180" height="40"></a></div>
+
+                    <b style="font-size: 20px">Dog Harness</b><br><br><br>
+                    <b style="font-size: 15px">$ 54 </b><br>
+                    <div style="margin-top:30px; margin-bottom: 60px;"><a href="products/harness_detail.html"><img src="./images/addtocart.jpg"
+                                width="180" height="40"></a></div>
+                </div>
+                <!-- Contains ratings for different items -->
+                <div class="class3">
+                    <div style="margin-bottom: 180px;"><img src="./images/ratings.jpg" width="200" height="40"></div>
+                    <div style="margin-bottom: 180px;"><img src="./images/ratings.jpg" width="200" height="40"></div>
+                    <div style="margin-bottom: 180px;"><img src="./images/ratings.jpg" width="200" height="40"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- Jquery and JS Files -->
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="./js/slider.js"></script>
+<script src="./js/product.js"></script>
+
+</html>

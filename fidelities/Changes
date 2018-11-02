@@ -1,0 +1,4 @@
+From Assignment 5 fidelities, there has been several changes. 
+Since the users should now be able to interact with the items they are shopping on the product detail page, I have added the drop down menu to select options for colors and sizes and a form input for the quantities. These replaced the images from the previous fidelities. 
+For the cart page, I only had a basic empty cart web page, but now that the web page needs to display the list of items added to the cart for the users, there is a completely new design. In a table format, for better organization, it can add the list of items that have been added to the cart. There will be a remove button to support the remove feature of the items. There will be an image and item name column. And there will be quantity and price columns to tell the user the prices. Finally, I added the checkout and clear buttons for the cart page 
+ 

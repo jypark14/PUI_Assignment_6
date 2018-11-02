@@ -1,0 +1,6 @@
+What challenges or bugs did you encounter? 
+How did you overcome these challenges?
+
+
+Even though I had some previous experience with Javascript using local session storage to store and access data with HTML was definitely a new concept. Despite going over these in the labs, I constantly ran into bugs when importing and storing the values for the different items. I genuinely did not want to hardcode the values for these items, so it challenged me to solve these bugs, and eventually rendering it on the HTML required more debugging. Furthermore, I was striving to make the new page, the shopping cart page, optimized with user experience. I had several friends test out the page I created for user testing purposes, and I have made several major adjustments since my low / hi fidelities. 
+I was able to overcome these challenges by using console.log() to print out the different values and debugging. As I have some coding experiences in the past, I know that using the print statements to debug the code is the most efficient way. Using this method, I was able to locate the errors and fix them rather quickly. Also, I have brushed up on my Javascript knowledges by going back to my notes and reviewing the syntaxes and concepts. 

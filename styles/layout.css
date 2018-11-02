@@ -1,0 +1,234 @@
+ /* General CSS settings for the html body  */
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #919191;
+  background-color: white;
+}
+
+.submit_button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.clear {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Badges and notification on nav bar  */
+.notification {
+  color: white;
+  text-decoration: none;
+  padding: 8px 11px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+ /* Badge next to cart */
+#badge {
+  position: absolute;
+  top: -8px;
+  right: -6px;
+  padding: 5px 10px;
+  border-radius: 40%;
+  background-color: brown;
+  color: white;
+}
+
+
+  /* color settings for row1 divs */
+.row1,
+.row1 a {
+  color: #c0bab6;
+  background-color: #7f6661;
+}
+  /* color settings for row2 divs */
+.row2 {
+  color: #979797;
+  background-color: #ffffff;
+}
+  /* Font setting for the footer text */
+.row2 a {
+  color: #ff9900;
+}
+
+/*-----Global-----*/
+
+  /* Navbar list format to align the items on the header */
+#header,
+#container,
+#footer{
+  display: block;
+  width: 960px;
+  margin: 0 auto;
+}
+
+  /* Navbar list format to align the items on the header */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+  /* Font style and size setup for all header */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  font-weight: normal;
+  font-style: italic;
+  line-height: normal;
+}
+
+  /* Font setup for form inputs from users  */
+input,
+textarea,
+select {
+  font-size: 12px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+  /* Margin and alignment for the 3 sections in the index page */
+.one_third,
+.two_third,
+.three_third {
+  display: block;
+  float: left;
+  margin: 0 30px 0 0;
+}
+  /* First section width */
+.one_third {
+  width: 300px;
+}
+  /* Second section width */
+.two_third {
+  width: 630px;
+}
+  /* Last section width */
+.three_third {
+  width: 960px;
+  float: none;
+  margin-right: 0;
+  clear: both;
+}
+
+ /* For the final section, override the margin right by setting it to 0 */
+.lastbox {
+  margin-right: 0;
+}
+
+/*---------Header CSS--------*/
+
+#header {
+  padding: 10px 0;
+}
+
+  /*  Used to align the objects on the header bar */
+#header #hgroup {
+  float: left;
+  margin: 0 0 0px 0;
+}
+  
+  /*  Muddy Paws text on the header bar */
+#header #abc {
+  float: center;
+  margin: 0 0 0px 0;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
+
+   /* Nav bar texts css setting; caps the texts */
+#header nav {
+  display: block;
+  float: right;
+  margin: 0px 0 0 0;
+  padding: 0px 0;
+  color: white;
+}
+
+  /* Nav bar texts css setting; caps the texts */
+#header nav li {
+  display: inline;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+  /* Font for the navbar */
+#header nav li a {
+  color: white;
+}
+  /* Font for texts when mouse is hovered over */
+#header nav li a:hover {
+  color: #ff9900;
+}
+
+/*------Main Content-------*/
+#container {
+  padding: px 0;
+}
+
+  /* The different classes used for dividng up the pages (product browsing / detail page) */
+#container .class1 {
+  width: 33.33%;
+  float: left;
+  height: 100px;
+}
+#container .class2 {
+  width: 33.33%;
+  float: left;
+  height: 100px;
+}
+#container .class3 {
+  width: 33.33%;
+  float: left;
+  height: 100px;
+}
+#container .class4 {
+  width: 50%;
+  float: left;
+  height: 100px;
+}
+#container .class5 {
+  width: 50%;
+  float: left;
+  height: 100px;
+}
+  /* Used to highlight the price on the product detail page */
+#container .bigger {
+  font-size: 150%;
+}
+
+  /* used to align the items in one line to avoid new line */
+#container .inline-block {
+  display: inline-block;
+}
+
+/* ------Slider-----*/
+/* For future when there are more images to in the slider */
+/* #container #slider{} */
